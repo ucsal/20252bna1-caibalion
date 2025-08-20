@@ -29,5 +29,5 @@ public abstract class User {
         return password;
     }
 
-    public abstract boolean checkPassword();
+    public abstract boolean checkPassword(String p);
 }
